@@ -747,7 +747,7 @@
     </Modal>
     <div id="header">
         <h1>Wordle</h1>
-        <p>Created By: <strong>Parteek Deol</strong></p>
+        <p>Created By: <strong>NoobBit</strong></p>
     </div>
 	<Game {correctWord} {turn} {isCorrect} {gameOver} {currentGuess} {guesses} {history} on:formatGuess={formatGuess} on:addGuess={addGuess}/>
 	<!-- <button on:click={() => correctWord = words[Math.floor(Math.random() * words.length)]}>Re-Generate</button> -->

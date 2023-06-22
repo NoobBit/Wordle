@@ -58,7 +58,7 @@
     // const handleInput = () => dispatch("handleInput");
 
     console.log("%cWordle", "color: #6aaa64; font-weight: bold; font-size: 30px");
-    console.log("%cCreated By: Parteek Deol", "font-weight: bold; font-size: 15px");
+    console.log("%cCreated By: NoobBit", "font-weight: bold; font-size: 15px");
     console.log("The answer is: " + correctWord.word + " :)");
 </script>
 
