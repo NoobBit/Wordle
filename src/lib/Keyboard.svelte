@@ -2,7 +2,7 @@
     import { createEventDispatcher } from "svelte";
     const dispatch = createEventDispatcher();
 
-    const handleInput = (e) => dispatch("handleInput", { key: e.originalTarget.id });
+    const handleInput = (e) => dispatch("handleInput", { key: e.srcElement.id });
 </script>
 
 <div id="keyboard">
